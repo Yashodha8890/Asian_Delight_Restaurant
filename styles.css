@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+
+/*Navigation bar starts here*/
+.nav-link
+{
+    color: white;
+    position: relative;
+}
+
+.navbar-nav
+{
+    --bs-nav-link-hover-color: rgb(175, 102, 6);
+}
+
+.nav-link :hover
+{
+    background-color: rgb(160, 100, 22);
+}
+
+.btn-primary
+{
+    background-color: rgb(100, 61, 3);
+    color: white;
+    --bs-btn-border-color:none;
+    --bs-btn-hover-bg: rgb(233, 169, 74);
+}
+
+.btn-primary :hover
+{
+    background-color: antiquewhite;
+    
+
+}
+
+.btn
+{
+    cursor:default;
+}
+
+.btn-default
+{
+    background-color: rgb(100, 61, 3);
+    margin-left: 5px;
+    color: white;
+}
+
+.btn-default :hover
+{
+    background-color: antiquewhite;
+}
+
+
+/*Hero section styles starts here*/
+.frontpage-h1
+{
+    padding-bottom: 30px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.hero-h2
+{
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.hero-h4
+{
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.bg-cover
+{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important; 
+}
+
+.carousel-control-prev,.carousel-control-next
+{
+    background-color: rgba(0,0, 0, 0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+
+.slide-1
+{
+    background: url(images/herosection/hero_image_slide1.jpg);
+}
+
+.slide-2
+{
+    background: linear-gradient(rgba(128, 124, 124,0.2),rgb(166, 162, 162)), url(images/herosection/slide2.jpeg);
+}
+
+.slide-3
+{
+    background: linear-gradient(rgba(193, 191, 191, 0.2),rgb(221, 211, 211)), url(images/herosection/slide3.jpeg);
+}
+
+.slide-4
+{
+    background: linear-gradient(rgba(128, 124, 124,0.2),rgb(166, 162, 162)), url(images/herosection/slide4.jpeg);
+}
+
+/*Hero section styles ends here*/
