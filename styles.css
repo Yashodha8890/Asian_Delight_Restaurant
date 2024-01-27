@@ -110,3 +110,58 @@
 }
 
 /*Hero section styles ends here*/
+
+/*About section styles starts here*/
+.aboutH1
+{
+    margin-top: 50px;
+}
+
+.about-content
+{
+    padding-top: 50px;
+    text-align: left;
+}
+
+.managementImage
+{
+    height: auto;
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */  
+    border-radius: 50%;
+}
+
+.followUs
+{
+    margin-top: 120px
+}
+
+.followUsIcon
+{
+    height: 50px;
+    width: auto;
+    border-radius: 100%;
+     margin-top: 100px; 
+}
+
+.about-bg
+{
+    background-image: url(images/about/background.jpg);    
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 820px;
+}
+
+.colgap
+{
+    padding-right: 50px;
+    padding-left: 80px;
+}
+
+/*About section styles ends here*/
